@@ -1,0 +1,52 @@
+.agent-image {
+  width: 5em;
+  height: 5em;
+}
+
+.agent-tab {
+  cursor: pointer;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.inactiveButton {
+  height: 60;
+  width: 320;
+  display: flex;
+  background-color: white;
+  color : gray;
+  opacity: 0.6;
+}
+
+.activeButton {
+  height: 60px;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 0;
+  color : black;
+  font-weight: bold;
+}
+
+.info {  
+  height: 250px!important;
+}
+.image-gallery, .image-gallery-using-mouse{
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.image-gallery {
+  height: 200px;
+}
+.image-gallery-slide {
+  height: 200px;
+}
+.image-gallery-image {
+  height: 200px;
+}
+.image-gallery-slide .image-gallery-image {
+  object-fit: fill;
+}

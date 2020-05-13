@@ -1,0 +1,28 @@
+.sub-card {
+  padding: 10px;
+  background-color: white;
+  border-radius: 12px;
+  border-color: black;
+  border: 1px solid;
+  width: 150px;
+  text-align: center;
+}
+.title-card-sub {
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+.price {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.agent {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.agent2 {
+  font-size: 16px;
+}

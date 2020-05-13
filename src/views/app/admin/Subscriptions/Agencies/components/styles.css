@@ -1,0 +1,13 @@
+.list-icon-button:before {
+  font-size: 1.5em !important;
+  padding: 5px !important;
+  cursor: pointer;
+}
+
+.list-icon-button:before:hover {
+  background-color: #ccc;
+}
+
+.inactive {
+  opacity: 0.5
+}

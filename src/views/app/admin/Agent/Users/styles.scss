@@ -1,0 +1,31 @@
+.agent-image {
+  width: 5em;
+  height: 5em;
+}
+
+.agent-tab {
+  cursor: pointer;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.react-viewer-close {
+  margin-top: 70px;
+  @media (min-width: 767px) {
+    margin-top: 80px;
+  }
+  @media (min-width: 1199px) {
+    margin-top: 90px;
+  }
+  @media (min-width: 1439px) {
+    margin-top: 100px;
+  }
+}
+
+.imageButton {
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: visible;
+  background-color: transparent;
+}

@@ -1,0 +1,18 @@
+.assign-button {
+  font-size: 15px !important;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  border: 0;
+  position: relative;
+  bottom: 4px;
+}
+
+.inactive {
+  opacity: 0.5;
+}

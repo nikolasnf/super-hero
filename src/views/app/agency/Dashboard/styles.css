@@ -1,0 +1,18 @@
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+.customContainer{
+    display: flex;
+    justify-content: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

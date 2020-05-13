@@ -1,0 +1,11 @@
+select:invalid {
+    color: gray;
+}
+  
+select option:first-child {
+    color: gray;
+}
+  
+select:invalid option:not(:first-child) {
+    color: black;
+}

@@ -1,0 +1,73 @@
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 16px;
+  font-weight: 800;
+}
+h2 {
+  font-size: 14px;
+}
+
+.cardsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width:767px) and (max-width: 824px) {
+.cardsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+}
+@media screen and (max-width: 549px) {
+  .cardsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+  }
+
+.customContainer{
+  display: flex;
+  justify-content: center;
+}
+.inputs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.right-div {
+  border-radius: 24px;
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  padding: 15px;
+  height: 75%;
+  margin-top: 60px;
+}
+
+.cards {
+  margin-bottom: 10px;
+}
+
+
+.rightCard{
+  border-radius: 12px;
+  height: 100%;
+}
+@media screen and (max-width: 767px) {
+.rightCard{
+  margin-top: 20px;
+  border-radius: 12px;
+  height: 100%,
+  }
+}
